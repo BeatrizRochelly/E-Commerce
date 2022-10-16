@@ -5,21 +5,23 @@ Projeto desenvolvido com o objetivo de receber o CEP como parâmetro e retorna o
 
 # Os passos para a realização do projeto foram os seguintes:
 
-- criação de EnderecoController;
--  - criação de EnderecoService;
-3 - conexão do controller com a service;
-4 - criação do Endereco model com os seus atributos;
-5 - criação do ClienteController;
-6 - criação do ClienteService;
-7 - conexão do controller com a service;
-8 - criação do ClienteRepository;
-9 - criação do Cliente model com seus atributos
-10 - na service de endereco foi realizado a requisição para a URL do viacep.
-11 - na service de cliente foi conectado com o repository de cliente
+- Criação de EnderecoController;
+- Criação de EnderecoService;
+- Conexão do controller com a service;
+- Criação do Endereco model com os seus atributos;
+- Criação do ClienteController;
+- Criação do ClienteService;
+- Conexão do controller com a service;
+- Criação do ClienteRepository;
+- Criação do Cliente model com seus atributos;
+- Na service de endereco foi realizado a requisição para a URL do viacep; e
+- Na service de cliente foi conectado com o repository de cliente.
 
 Para essa etapa do projeto utilizei: Java, Spring e MySQL como banco de dados.
 
 <img align="center" alt="Bia-JAVA" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+<img align="center" alt="Bia-Spring" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" />
+<img align="center" alt="Bia-JAVA" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
 
 
 
