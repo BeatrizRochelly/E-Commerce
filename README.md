@@ -5,8 +5,8 @@ Projeto desenvolvido com o objetivo de receber o CEP como parâmetro e retorna o
 
 # Os passos para a realização do projeto foram os seguintes:
 
-1 - criação de EnderecoController;
-2 - criação de EnderecoService;
+- criação de EnderecoController;
+-  - criação de EnderecoService;
 3 - conexão do controller com a service;
 4 - criação do Endereco model com os seus atributos;
 5 - criação do ClienteController;
