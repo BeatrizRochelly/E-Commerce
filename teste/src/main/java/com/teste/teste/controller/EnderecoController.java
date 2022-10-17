@@ -16,6 +16,8 @@ public class EnderecoController {
 	@Autowired
 	private EnderecoService enderecoService;
 	
+	
+	
 	@GetMapping
 	public String buscarCep () throws Exception {
 		return this.enderecoService.consultarCep();

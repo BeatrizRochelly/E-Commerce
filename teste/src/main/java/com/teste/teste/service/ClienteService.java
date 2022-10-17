@@ -3,6 +3,7 @@ package com.teste.teste.service;
 import java.util.List;
 import java.util.Optional;
 
+import javax.transaction.Transactional;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,6 +61,8 @@ public class ClienteService {
 		return clienteRepository.findAll();
 	}
 
+
+	@Transactional
 	public ClienteModel adicionarEndereco(EnderecoModel enderecoModel, Long clienteId) {
 		Optional<ClienteModel> clienteModel = clienteRepository.findById(clienteId);
 		EnderecoModel endereco = enderecoRepository.save(enderecoModel);

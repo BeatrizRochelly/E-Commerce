@@ -14,7 +14,6 @@ public class EnderecoService {
 	public String consultarCep() throws Exception {
 
 		HttpClient client = HttpClient.newHttpClient();
-
 		HttpRequest request = HttpRequest.newBuilder().uri(new URI("https://api.postmon.com.br/v1/cep/53525600")).GET()
 				.build();
 
@@ -24,8 +23,9 @@ public class EnderecoService {
 				});
 
 		System.out.println(this.body);
-		
+
 		return this.body;
 
 	}
+
 }

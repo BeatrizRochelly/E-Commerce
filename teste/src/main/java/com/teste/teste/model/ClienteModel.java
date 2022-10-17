@@ -33,7 +33,7 @@ public class ClienteModel {
 	@Email(message= "O atributo Email deve ser um email válido!")
 	private String email;
 	
-	@OneToMany(mappedBy = "cliente", cascade = CascadeType.REMOVE)
+	@OneToMany(mappedBy = "cliente", cascade = CascadeType.MERGE)
 	@JsonIgnoreProperties("cliente")
 	private List<EnderecoModel> endereco = new ArrayList<>();
 	
@@ -47,6 +47,7 @@ public class ClienteModel {
 	}
 
 	public ClienteModel() { }
+	
 
 	public Long getId() {
 		return id;
