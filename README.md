@@ -96,11 +96,29 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <img align="center" alt="Bia-POSTMAN" height="60" width="70"  src="https://i.imgur.com/MqfqpRc.png" />
 
-2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para AdicionarCliente(Post), AdicionarEndereco(Post), BuscarClientes(Get).
+2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para AdicionarCliente(POST), AdicionarEndereco(Post), BuscarClientes(Get).
 
-- Em AdicionarCliente(Post), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
+- Em AdicionarCliente(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
 
 <a href="https://imgur.com/KZW5Myt"><img src="https://i.imgur.com/KZW5Myt.png" title="source: imgur.com" /></a>
+
+- Em AdicionarEndereco(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o cep, logradouro, bairro, localidade e uf de sua preferência) o resultado vai ser um Status: 201 Created.
+
+Observação: Na requisição você vai passar localhost:8080/cliente/2/enderecos (esse 2 é o id do cliente, que você pode altera pelo o que você cadastrou agora pouco).
+
+<imagem>
+
+- Em BuscarClientes(GET) você vai clica em Send e ira aparecer a lista de endereços de um cliente (representado unicamente por um e-mail). Os dados foram salvos no banco de dados como mostra a imagem abaixo.
+
+<imagem>
+<imagem>
+
+- Em EmailClienteEndereco(GET) dado o email do usuário, vai retornar a lista de endereços cadastrados para ele, como mostra a imagem abaixo.
+
+<imagem>
+
+
+
 
 
 
