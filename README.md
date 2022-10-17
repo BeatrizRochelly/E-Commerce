@@ -36,12 +36,21 @@ Para essa etapa do projeto utilizei: Java, Spring e MySQL como banco de dados.
                                                                 
 2. Copie a URL do repositório.
                                                                 
-<a href="https://imgur.com/4DLsHFr"><img src="https://i.imgur.com/4DLsHFr.png" title="source: imgur.com" /></a>                                                                                                      
+<a href="https://imgur.com/I0z5pe1"><img src="https://i.imgur.com/I0z5pe1.png" title="source: imgur.com" /></a>                                                                                                     
                                                                                                 
-3. Abra Git Bash.
+3. Abra Git Bash (Clicando com o botão direito do mouse, pode ser já no local de sua preferência).
+
+<a href="https://imgur.com/YvZIye7"><img src="https://i.imgur.com/YvZIye7.png" title="source: imgur.com" /></a>
+
 4. Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado (sua preferência). 
+
 5. Digite git clone e cole a URL já copiada.
+
+<a href="https://imgur.com/hX9X6Ba"><img src="https://i.imgur.com/hX9X6Ba.png" title="source: imgur.com" /></a>
+
 6. Pronto! Repositório clonado com sucesso.
+
+<a href="https://imgur.com/m98Tnnr"><img src="https://i.imgur.com/m98Tnnr.png" title="source: imgur.com" /></a>
 
 
 
