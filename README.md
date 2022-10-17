@@ -32,11 +32,11 @@ Para essa etapa do projeto utilizei: Java, Spring e MySQL como banco de dados.
 - Para executar o projeto será necessário clonar o mesmo.
 1. Acima da lista de arquivos, clique em Code (botão verde).
 
-<img align="center" alt="Bia-CODE" height="90" width="100" src="https://i.imgur.com/XNnjk2n.png/>
+<a href="https://imgur.com/XNnjk2n"><img src="https://i.imgur.com/XNnjk2n.png" title="source: imgur.com" /></a>
                                                                 
 2. Copie a URL do repositório.
                                                                 
-<img align="center" alt="Bia-JAVA" height="90" width="100" src="https://i.imgur.com/4DLsHFr.png" />                                                                                                        
+<a href="https://imgur.com/4DLsHFr"><img src="https://i.imgur.com/4DLsHFr.png" title="source: imgur.com" /></a>                                                                                                      
                                                                                                 
 3. Abra Git Bash.
 4. Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado (sua preferência). 
