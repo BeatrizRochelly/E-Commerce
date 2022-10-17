@@ -77,6 +77,14 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <a href="https://imgur.com/NDQeLRF"><img src="https://i.imgur.com/NDQeLRF.png" title="source: imgur.com" /></a>
 
+# Agora vamos para os testes e como chamar as APIs!
+
+- Primeiro você vai jogar no seu navegador (de sua preferência) localhost:8080/endereco. Note que apareceu um endereço que está no EnderecoService do projeto, você pode mudar para o seu fazendo o seguinte: copie https://api.postmon.com.br/v1/cep/53525600 e cole no seu navegador de preferência e altere apenas os números 53525600 mudando para o seu cep.
+
+<a href="https://imgur.com/vqADArQ"><img src="https://i.imgur.com/vqADArQ.png" title="source: imgur.com" /></a>
+
+
+
 
 
 
