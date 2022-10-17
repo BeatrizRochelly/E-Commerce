@@ -52,6 +52,23 @@ Para essa etapa do projeto utilizei: Java, Spring e MySQL como banco de dados.
 
 <a href="https://imgur.com/m98Tnnr"><img src="https://i.imgur.com/m98Tnnr.png" title="source: imgur.com" /></a>
 
+Depois desse processo vamos importar o projeto na nossa máquina, é necessário ter o java 17 ou superior.
+
+# Importando e rodando o projeto na sua máquina
+
+1. Vamos abrir o spring tool suite (STS) ou Eclipse (sua preferência)
+2. Clique em File, depois Import...
+
+<a href="https://imgur.com/WUg6zo6"><img src="https://i.imgur.com/WUg6zo6.png" title="source: imgur.com" /></a>
+
+3. Vai abrir Import, como mostra a imagem abaixo. Clique em Existing Maven Projects.
+
+<a href="https://imgur.com/ho2LJvB"><img src="https://i.imgur.com/ho2LJvB.png" title="source: imgur.com" /></a>
+
+4. Vai abrir Import Maven Projects, você clica em Browse... vai abrir o Select Root Folder e você vai selecionar o local onde você clonou o projeto.
+
+
+
 
 
 
