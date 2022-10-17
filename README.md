@@ -91,7 +91,7 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para AdicionarCliente(Post), AdicionarEndereco(Post), BuscarClientes(Get).
 
-Em AdicionarCliente(Post), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
+- Em AdicionarCliente(Post), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
 
 <a href="https://imgur.com/KZW5Myt"><img src="https://i.imgur.com/KZW5Myt.png" title="source: imgur.com" /></a>
 
