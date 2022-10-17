@@ -1,7 +1,14 @@
 # E-Commerce
 Projeto E-Commerce
 
-Projeto desenvolvido com o objetivo de receber o CEP como parâmetro e retorna os dados do endereço para o frontend utilizando o serviço https://viacep.com.br/. Além disso, será criado um endereço para o lista de endereços do cliente, que, com base no e-mail do usuário, retornará a ele uma lista de endereços cadastrados pelo mesmo. 
+Projeto desenvolvido com o objetivo de receber o CEP como parâmetro e retorna os dados do endereço para o frontend utilizando o serviço https://viacep.com.br/. Além disso, será criado um endereço para o lista de endereços do cliente, que, com base no e-mail do usuário, retornará a ele uma lista de endereços cadastrados pelo mesmo.
+
+Modelo de dados conceitual (E-Commerce)
+Criação de um modelo de dados conceitual que englobe as principais entidades de um e-commerce: cliente, produto, preço, carrinho de compras e pedido. 
+O processo do cliente quando ele acessa um site em busca de um produto, ele(a) observa o produto e seu preço, ao realizar a escolha, o cliente adiciona no carrinho de compras e finaliza o seu pedido.
+
+<a href="https://imgur.com/PwNKjSG"><img src="https://i.imgur.com/PwNKjSG.png" title="source: imgur.com" /></a>
+
 
 # Os passos para a realização do projeto foram os seguintes:
 
