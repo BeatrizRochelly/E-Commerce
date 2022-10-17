@@ -87,7 +87,7 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 1. Vou utilizar o Postman para fazer as requisições
 
-<img align="center" alt="Bia-JAVA" height="30" width="40" src= "https://imgur.com/MqfqpRc"><img src="https://i.imgur.com/MqfqpRc.png"/>
+<img align="center" alt="Bia-POSTMAN" height="30" width="40"  src="https://i.imgur.com/MqfqpRc.png" />
 
 
 
