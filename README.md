@@ -65,7 +65,17 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <a href="https://imgur.com/ho2LJvB"><img src="https://i.imgur.com/ho2LJvB.png" title="source: imgur.com" /></a>
 
-4. Vai abrir Import Maven Projects, você clica em Browse... vai abrir o Select Root Folder e você vai selecionar o local onde você clonou o projeto.
+4. Vai abrir Import Maven Projects, você clica em Browse... vai abrir o Select Root Folder e você vai selecionar o local onde você clonou o projeto, clique no quadradinho que tem o POM e clique em Finish.
+
+5. O seu projeto vai carregar e ser importado com sucesso!
+
+6. Depois disso, vamos rodar o projeto (Você pode clicar com o botão direito do mouse em TesteApplication.java, depois em Run As e por fim em Spring Boot App ou Java Application.
+
+<a href="https://imgur.com/zfj7Gfk"><img src="https://i.imgur.com/zfj7Gfk.png" title="source: imgur.com" /></a>
+
+7. O projeto está rodando corretamente.
+
+<a href="https://imgur.com/NDQeLRF"><img src="https://i.imgur.com/NDQeLRF.png" title="source: imgur.com" /></a>
 
 
 
