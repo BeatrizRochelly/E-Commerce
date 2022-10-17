@@ -117,6 +117,14 @@ Observação: Na requisição você vai passar localhost:8080/cliente/2/endereco
 
 <imagem>
 
+# Teste JUnit
+
+- Vamos realizar um teste na Camada Repository do Recurso Cliente do Projeto E-commerce. Para executarmos o teste, foi necessário realizar algumas configurações na Source Folder de testes src/test, algumas configurações no arquivo pom.xml e algumas alterações na Classe Cliente e na Interface ClienteRepository. Antes de prosseguir, assegure que o seu projeto E-commerce não esteja em execução no STS ou no Eclipse.
+
+
+
+
+
 
 
 
