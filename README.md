@@ -86,7 +86,7 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 # Agora vamos para os testes e como chamar as APIs!
 
-- Primeiro você vai jogar no seu navegador (de sua preferência) localhost:8080/endereco. Note que apareceu um endereço que está no EnderecoService do projeto, você pode mudar para o seu fazendo o seguinte: copie https://api.postmon.com.br/v1/cep/53525600 e cole no seu navegador de preferência e altere apenas os números 53525600 mudando para o seu cep.
+- Primeiro você vai jogar no seu navegador https://api.postmon.com.br/v1/cep/ e coloca seu cep, por exemplo: https://api.postmon.com.br/v1/cep/53525600. Note que apareceu o endereço que você passou, você pode alterar o cep para sua preferência.
 
 <a href="https://imgur.com/vqADArQ"><img src="https://i.imgur.com/vqADArQ.png" title="source: imgur.com" /></a>
 
@@ -96,7 +96,11 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <img align="center" alt="Bia-POSTMAN" height="60" width="70"  src="https://i.imgur.com/MqfqpRc.png" />
 
-2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para AdicionarCliente(POST), AdicionarEndereco(Post), BuscarClientes(Get).
+2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para CepReceberEndereco(GET), AdicionarEndereco(Post), BuscarClientes(Get).
+
+- Em CepReceberEndereco(GET), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Coloque o CEP de sua preferência).
+
+<a href="https://imgur.com/VuLPcJV"><img src="https://i.imgur.com/VuLPcJV.png" title="source: imgur.com" /></a>
 
 - Em AdicionarCliente(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
 
