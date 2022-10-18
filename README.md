@@ -121,7 +121,13 @@ Observação: Na requisição você vai passar localhost:8080/cliente/2/endereco
 
 - Vamos realizar um teste em Cliente do Projeto E-commerce. Para executarmos o teste, foi necessário realizar algumas configurações na Source Folder de testes src/test, algumas configurações no arquivo pom.xml. Antes de prosseguir, assegure que o seu projeto E-commerce não esteja em execução no STS ou no Eclipse.
   
- 1. Para realizar o teste você deve ir na pasta ClienteTeste e clicar com o botão direito do mouse, vai em Run As e rode em JUnit Test. Pronto! O teste unitário está correto.
+ 1. Para realizar o teste você deve ir na pasta src/test/java, depois você vai em com.teste.teste.cliente, em ClienteTeste.java você clica com o botão direito do mouse, vai em Run As e rode em JUnit Test.
+ 
+<a href="https://imgur.com/LRPKwYy"><img src="https://i.imgur.com/LRPKwYy.png" title="source: imgur.com" /></a>
+
+2. Pronto! O teste unitário está correto.
+
+<a href="https://imgur.com/hpm8TII"><img src="https://i.imgur.com/hpm8TII.png" title="source: imgur.com" /></a>
   
   
   
