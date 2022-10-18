@@ -108,14 +108,12 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 - Em AdicionarEndereco(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o cep, logradouro, bairro, localidade e uf de sua preferência) o resultado vai ser um Status: 201 Created.
 
-Observação: Na requisição você vai passar localhost:8080/cliente/2/enderecos (esse 2 é o id do cliente, que você pode altera pelo o que você cadastrou agora pouco).
+<a href="https://imgur.com/5RHvaR4"><img src="https://i.imgur.com/5RHvaR4.png" title="source: imgur.com" /></a>
 
-<imagem>
+- Em BuscarClientesEndereco(GET) você vai clica em Send e ira aparecer a lista de endereços de um cliente (representado unicamente por um e-mail). Os dados foram salvos no banco de dados como mostra a imagem abaixo.
 
-- Em BuscarClientes(GET) você vai clica em Send e ira aparecer a lista de endereços de um cliente (representado unicamente por um e-mail). Os dados foram salvos no banco de dados como mostra a imagem abaixo.
-
-<imagem>
-<imagem>
+<a href="https://imgur.com/Xst2VEc"><img src="https://i.imgur.com/Xst2VEc.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/iqR5F8H"><img src="https://i.imgur.com/iqR5F8H.png" title="source: imgur.com" /></a>
 
 - Em EmailClienteEndereco(GET) dado o email do usuário, vai retornar a lista de endereços cadastrados para ele, como mostra a imagem abaixo.
 
