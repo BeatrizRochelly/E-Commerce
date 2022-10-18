@@ -115,10 +115,6 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 <a href="https://imgur.com/Xst2VEc"><img src="https://i.imgur.com/Xst2VEc.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/iqR5F8H"><img src="https://i.imgur.com/iqR5F8H.png" title="source: imgur.com" /></a>
 
-- Em EmailClienteEndereco(GET) dado o email do usuário, vai retornar a lista de endereços cadastrados para ele, como mostra a imagem abaixo.
-
-<imagem>
-
 # Teste JUnit
 
 - Vamos realizar um teste em Cliente do Projeto E-commerce. Para executarmos o teste, foi necessário realizar algumas configurações na Source Folder de testes src/test, algumas configurações no arquivo pom.xml. Antes de prosseguir, assegure que o seu projeto E-commerce não esteja em execução no STS ou no Eclipse.
