@@ -39,6 +39,7 @@ public class ClienteService {
 	public Optional<ClienteModel> getById(@PathVariable Long id) {
 		return clienteRepository.findById(id);
 	}
+		
 
 	public ClienteModel post(@Valid @RequestBody ClienteModel cliente) {
 		return clienteRepository.save(cliente);
@@ -75,4 +76,5 @@ public class ClienteService {
 		}
 		return clienteModel.get();
 	}
+	
 }

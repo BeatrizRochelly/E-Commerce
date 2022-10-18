@@ -17,7 +17,10 @@ public interface ClienteRepository extends JpaRepository<ClienteModel, Long> {
 	ClienteModel findByEmail(String email);
 
 	public Optional<ClienteModel> findByNome(String nome);
+	
 
 	public List<ClienteModel> findAllByNomeContainingIgnoreCase(@Param("nome") String nome);
+	
+	
 
 }

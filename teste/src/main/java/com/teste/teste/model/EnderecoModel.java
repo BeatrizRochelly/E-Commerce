@@ -8,7 +8,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 @Entity
 @Table(name = "tb_endereco")
@@ -34,7 +35,7 @@ public class EnderecoModel {
 	private String uf;
 
 	@ManyToOne//tipo de relacionamento
-	@JsonIgnoreProperties("endereco")
+	@JsonIgnore
 	private ClienteModel cliente;
 
 	public Long getId() {

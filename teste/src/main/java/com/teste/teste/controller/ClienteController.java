@@ -39,7 +39,7 @@ public class ClienteController {
 	public Optional<ClienteModel> getById(@PathVariable Long id) {
 		return clienteService.getById(id);
 	}
-
+	
 	@PostMapping
 	public ResponseEntity<ClienteModel> post(@Valid @RequestBody ClienteModel cliente) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(clienteService.save(cliente));
