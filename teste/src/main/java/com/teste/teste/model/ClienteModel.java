@@ -1,5 +1,6 @@
 package com.teste.teste.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,43 +12,38 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
-
 import javax.validation.constraints.NotNull;
-
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "tb_clientes")
-public class ClienteModel {
+public class ClienteModel implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotNull(message = "O atributo nome é obrigatório!")
 	private String nome;
-	
+
 	@NotNull(message = "O atributo Email é Obrigatório!")
-	@Email(message= "O atributo Email deve ser um email válido!")
+	@Email(message = "O atributo Email deve ser um email válido!")
 	private String email;
-	
-	@OneToMany(mappedBy = "cliente", cascade = CascadeType.MERGE)
-	@JsonIgnoreProperties("cliente")
+
+	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
+	// @JsonIgnoreProperties("cliente")
 	private List<EnderecoModel> endereco = new ArrayList<>();
-	
-	public ClienteModel(Long id,String nome, String email) {
+
+	public ClienteModel(Long id, String nome, String email) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
-		
 
 	}
 
-	public ClienteModel() { }
-	
+	public ClienteModel() {
+	}
 
 	public Long getId() {
 		return id;
@@ -81,7 +77,4 @@ public class ClienteModel {
 		this.endereco = endereco;
 	}
 
-	
 }
-
-	
