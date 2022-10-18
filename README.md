@@ -98,6 +98,8 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para CepReceberEndereco(GET), AdicionarEndereco(Post), BuscarClientes(Get).
 
+<a href="https://imgur.com/FGNVwT7"><img src="https://i.imgur.com/FGNVwT7.png" title="source: imgur.com" /></a>
+
 - Em CepReceberEndereco(GET), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Coloque o CEP de sua preferência).
 
 <a href="https://imgur.com/VuLPcJV"><img src="https://i.imgur.com/VuLPcJV.png" title="source: imgur.com" /></a>
@@ -110,10 +112,14 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <a href="https://imgur.com/5RHvaR4"><img src="https://i.imgur.com/5RHvaR4.png" title="source: imgur.com" /></a>
 
-- Em BuscarClientesEndereco(GET) você vai clica em Send e ira aparecer a lista de endereços de um cliente (representado unicamente por um e-mail). Os dados foram salvos no banco de dados como mostra a imagem abaixo.
+- Em BuscarClientesEndereco(GET) você vai clica em Send. Os dados foram salvos no banco de dados como mostra a imagem abaixo.
 
 <a href="https://imgur.com/Xst2VEc"><img src="https://i.imgur.com/Xst2VEc.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/iqR5F8H"><img src="https://i.imgur.com/iqR5F8H.png" title="source: imgur.com" /></a>
+
+- Em BuscarClientes(GET) você clica em Send e vai mostra os clientes.
+
+<a href="https://imgur.com/Q0ZTkJS"><img src="https://i.imgur.com/Q0ZTkJS.png" title="source: imgur.com" /></a>
 
 # Teste JUnit
 
