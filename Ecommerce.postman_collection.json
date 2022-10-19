@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "98afea73-2094-4e5b-b0da-1fca48793907",
+		"_postman_id": "62bd78b5-8a54-4f06-99a2-b03ba1b06890",
 		"name": "Ecommerce",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "21537952"
@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"cep\": \"04824090\",\r\n    \"logradouro\": \"rua palmeira do mar, 19\",\r\n    \"bairro\": \"parque das arvores\",\r\n    \"localidade\": \"São Paulo - SP\",\r\n    \"uf\": \"SSP\"\r\n}",
+							"raw": "{\r\n    \"cep\": \"53525600\",\r\n    \"logradouro\": \"Rua Luiz Carlos Anastácio\",\r\n    \"bairro\": \"Centro\",\r\n    \"localidade\": \"Abreu e Lima\",\r\n    \"uf\": \"PE\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -45,7 +45,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nome\": \"Gian\",\r\n    \"email\": \"gian@email.com\",\r\n    \"endereco\": [\r\n        {\r\n            \"cep\": \"04824090\",\r\n            \"logradouro\": \"rua palmeira do mar, 800\",\r\n            \"bairro\": \"parque das arvores\",\r\n            \"localidade\": \"São Paulo - SP\",\r\n            \"uf\": \"SSP\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"nome\": \"Beatriz\",\r\n    \"email\": \"beatriz@email.com\",\r\n    \"endereco\": [\r\n        {\r\n            \"cep\": \"53580140\",\r\n            \"logradouro\": \"Rua Manoel Gonçaves da Silva\",\r\n            \"bairro\": \"Boa Esperança\",\r\n            \"localidade\": \"Abreu e Lima\",\r\n            \"uf\": \"PE\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -67,9 +67,21 @@
 				},
 				{
 					"name": "Buscar Clientes",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "localhost:8080/cliente",
 							"host": [
@@ -92,24 +104,7 @@
 					"name": "Buscar Endereço Por Email",
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "localhost:8080/enderecos/buscar_por?email=gian@email.com",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"enderecos",
-								"buscar_por"
-							],
-							"query": [
-								{
-									"key": "email",
-									"value": "gian@email.com"
-								}
-							]
-						}
+						"header": []
 					},
 					"response": []
 				},
@@ -117,18 +112,7 @@
 					"name": "Buscar CEP",
 					"request": {
 						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "localhost:8080/enderecos/04824080",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"enderecos",
-								"04824080"
-							]
-						}
+						"header": []
 					},
 					"response": []
 				}
