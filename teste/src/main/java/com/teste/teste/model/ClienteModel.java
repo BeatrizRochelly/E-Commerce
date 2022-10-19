@@ -14,11 +14,12 @@ import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 @Table(name = "tb_clientes")
 public class ClienteModel implements Serializable {
-    private static final long serialVersionUID = 1L;
-
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -30,20 +31,9 @@ public class ClienteModel implements Serializable {
 	@Email(message = "O atributo Email deve ser um email válido!")
 	private String email;
 
-	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
-	// @JsonIgnoreProperties("cliente")
+	@OneToMany(cascade = CascadeType.ALL)
+	@JsonIgnoreProperties("cliente")
 	private List<EnderecoModel> endereco = new ArrayList<>();
-
-	public ClienteModel(Long id, String nome, String email) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.email = email;
-
-	}
-
-	public ClienteModel() {
-	}
 
 	public Long getId() {
 		return id;
