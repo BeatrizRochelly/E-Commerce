@@ -112,11 +112,6 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 <a href="https://imgur.com/7UngZfp"><img src="https://i.imgur.com/7UngZfp.png" title="source: imgur.com" /></a>
 
-- Em BuscarClientesEndereco(GET) você vai clica em Send. Os dados foram salvos no banco de dados como mostra a imagem abaixo.
-
-<a href="https://imgur.com/Xst2VEc"><img src="https://i.imgur.com/Xst2VEc.png" title="source: imgur.com" /></a>
-<a href="https://imgur.com/iqR5F8H"><img src="https://i.imgur.com/iqR5F8H.png" title="source: imgur.com" /></a>
-
 - Em Buscar Clientes(GET) você clica em Send e vai mostra os clientes e seus endereços também.
 
 <a href="https://imgur.com/1OXOTXP"><img src="https://i.imgur.com/1OXOTXP.png" title="source: imgur.com" /></a>
