@@ -39,7 +39,7 @@ public class ClienteController {
 	public Optional<ClienteModel> getById(@PathVariable Long id) {
 		return clienteService.getById(id);
 	}
-	
+		
 	@PostMapping
 	public ResponseEntity<ClienteModel> post(@Valid @RequestBody ClienteModel cliente) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(clienteService.save(cliente));
@@ -57,9 +57,7 @@ public class ClienteController {
 	}
 
 	@PostMapping("/{id}/enderecos")
-	public ResponseEntity<ClienteModel> adicionarEndereco(@Valid @RequestBody EnderecoModel endereco,
-			@PathVariable Long id) {
-		return ResponseEntity.ok(clienteService.adicionarEndereco(endereco, id));
-	}
-
+    public ResponseEntity<ClienteModel> createEndereco(@Valid @RequestBody EnderecoModel endereco, @PathVariable Long id) {
+        return ResponseEntity.ok(clienteService.adicionarEndereco(endereco, id));
+    }
 }

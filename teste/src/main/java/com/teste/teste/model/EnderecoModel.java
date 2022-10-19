@@ -10,31 +10,30 @@ import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-
 @Entity
 @Table(name = "tb_endereco")
 public class EnderecoModel {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotNull(message = "O atributo cep é obrigatório!")
 	private String cep;
-	
+
 	@NotNull(message = "O atributo número é obrigatório!")
 	private String logradouro;
-	
+
 	@NotNull(message = "O atributo bairro é obrigatório!")
 	private String bairro;
-	
+
 	@NotNull(message = "O atributo localidade é obrigatório!")
 	private String localidade;
-	
+
 	@NotNull(message = "O atributo uf é obrigatório!")
 	private String uf;
 
-	@ManyToOne//tipo de relacionamento
+	@ManyToOne
 	@JsonIgnore
 	private ClienteModel cliente;
 
@@ -94,5 +93,4 @@ public class EnderecoModel {
 		this.cliente = cliente;
 	}
 
-	
 }
