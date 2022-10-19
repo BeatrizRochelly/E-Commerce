@@ -98,28 +98,36 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 
 2. Criei uma Collection no postman (está na documentação acima, junto com todo projeto), e vamos utilizar para CepReceberEndereco(GET), AdicionarEndereco(Post), BuscarClientes(Get).
 
-<a href="https://imgur.com/FGNVwT7"><img src="https://i.imgur.com/FGNVwT7.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/8HfOulj"><img src="https://i.imgur.com/8HfOulj.png" title="source: imgur.com" /></a>
 
-- Em CepReceberEndereco(GET), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Coloque o CEP de sua preferência).
+- Primeiro você deve Cadastrar Cliente (POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Coloque o nome e email de sua preferência).
 
-<a href="https://imgur.com/VuLPcJV"><img src="https://i.imgur.com/VuLPcJV.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/1m4GdRf"><img src="https://i.imgur.com/1m4GdRf.png" title="source: imgur.com" /></a>
 
 - Em AdicionarCliente(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o nome do cliente e o email de sua preferência) o resultado vai ser um Status: 201 Created.
 
 <a href="https://imgur.com/KZW5Myt"><img src="https://i.imgur.com/KZW5Myt.png" title="source: imgur.com" /></a>
 
-- Em AdicionarEndereco(POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send (Observe: Você pode mudar o cep, logradouro, bairro, localidade e uf de sua preferência) o resultado vai ser um Status: 201 Created.
+- Em Adicionar Endereco (POST), no postman você vai coloca como mostra a imagem abaixo e depois dar um Send, lembre de altera o id do cliente que você quer adicionar o endereço, no meu caso é 1 porque quero adicionar esse endereço nesse cliente 1 (Observe: Você pode mudar o cep, logradouro, bairro, localidade e uf de sua preferência) o resultado vai ser um Status: 201 Created.
 
-<a href="https://imgur.com/5RHvaR4"><img src="https://i.imgur.com/5RHvaR4.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/7UngZfp"><img src="https://i.imgur.com/7UngZfp.png" title="source: imgur.com" /></a>
 
 - Em BuscarClientesEndereco(GET) você vai clica em Send. Os dados foram salvos no banco de dados como mostra a imagem abaixo.
 
 <a href="https://imgur.com/Xst2VEc"><img src="https://i.imgur.com/Xst2VEc.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/iqR5F8H"><img src="https://i.imgur.com/iqR5F8H.png" title="source: imgur.com" /></a>
 
-- Em BuscarClientes(GET) você clica em Send e vai mostra os clientes.
+- Em Buscar Clientes(GET) você clica em Send e vai mostra os clientes e seus endereços também.
 
-<a href="https://imgur.com/Q0ZTkJS"><img src="https://i.imgur.com/Q0ZTkJS.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/1OXOTXP"><img src="https://i.imgur.com/1OXOTXP.png" title="source: imgur.com" /></a>
+
+- Em Buscar Endereço Por Email (GET) você deve coloca o email do cliente que você cadastrou como mostra a imagem abaixo e depois dar um Send.
+
+<a href="https://imgur.com/FEr8Kmq"><img src="https://i.imgur.com/FEr8Kmq.png" title="source: imgur.com" /></a>
+
+- Em Buscar Cep (GET) você deve coloca o cep de sua preferência.
+
+<a href="https://imgur.com/B6vywZz"><img src="https://i.imgur.com/B6vywZz.png" title="source: imgur.com" /></a>
 
 # Teste JUnit
 
@@ -132,26 +140,3 @@ Depois desse processo vamos importar o projeto na nossa máquina, é necessário
 2. Pronto! O teste unitário está correto.
 
 <a href="https://imgur.com/hpm8TII"><img src="https://i.imgur.com/hpm8TII.png" title="source: imgur.com" /></a>
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
